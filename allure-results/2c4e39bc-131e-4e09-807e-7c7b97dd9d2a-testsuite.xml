@@ -1,0 +1,173 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623189248926' stop='1623189279896'>
+    <name>OOBE FLOW: OOBE FastPair test suite</name>
+    <title>OOBE FLOW: OOBE FastPair test suite</title>
+    <test-cases>
+        <test-case start='1623189248926' status='passed' stop='1623189249037'>
+            <name>TC-001 | Halfsheet pairing notification shoud be shown on screen</name>
+            <title>TC-001 | Halfsheet pairing notification shoud be shown on screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='RF8M72NZX7J-11'/>
+                <parameter kind='argument' name='device' value='RF8M72NZX7J-11'/>
+                <parameter kind='argument' name='device' value='RF8M72NZX7J-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623189249037' status='passed' stop='1623189250132'>
+            <name>TC-002 | Stretto should be paired after "Connect" Btn click</name>
+            <title>TC-002 | Stretto should be paired after "Connect" Btn click</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='RF8M72NZX7J-11'/>
+                <parameter kind='argument' name='device' value='RF8M72NZX7J-11'/>
+                <parameter kind='argument' name='device' value='RF8M72NZX7J-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623189250133' status='passed' stop='1623189250791'>
+            <name>TC-003 | "Set Up" notification should be shown on screen and clickable</name>
+            <title>TC-003 | "Set Up" notification should be shown on screen and clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='RF8M72NZX7J-11'/>
+                <parameter kind='argument' name='device' value='RF8M72NZX7J-11'/>
+                <parameter kind='argument' name='device' value='RF8M72NZX7J-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623189250791' status='passed' stop='1623189261771'>
+            <name>TC-004 | Link Pixel Buds with "user's acc name" message should be shown on screen</name>
+            <title>TC-004 | Link Pixel Buds with "user's acc name" message should be shown on screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='RF8M72NZX7J-11'/>
+                <parameter kind='argument' name='device' value='RF8M72NZX7J-11'/>
+                <parameter kind='argument' name='device' value='RF8M72NZX7J-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623189261772' status='passed' stop='1623189261854'>
+            <name>TC-005 | Link Pixel Buds with... "OK" button should send user to OOBE Welcome screen</name>
+            <title>TC-005 | Link Pixel Buds with... "OK" button should send user to OOBE Welcome screen</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='RF8M72NZX7J-11'/>
+                <parameter kind='argument' name='device' value='RF8M72NZX7J-11'/>
+                <parameter kind='argument' name='device' value='RF8M72NZX7J-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623189261857' status='pending' stop='1623189261857'>
+            <name>TC-006 | Link Pixel Buds with... "CANCEL" button should cancel OOBE flow</name>
+            <title>TC-006 | Link Pixel Buds with... "CANCEL" button should cancel OOBE flow</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1623189261857' status='passed' stop='1623189263329'>
+            <name>TC-007 | "Start setup" > "I accept" > "Next" > "Next" buttons click</name>
+            <title>TC-007 | "Start setup" > "I accept" > "Next" > "Next" buttons click</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='RF8M72NZX7J-11'/>
+                <parameter kind='argument' name='device' value='RF8M72NZX7J-11'/>
+                <parameter kind='argument' name='device' value='RF8M72NZX7J-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623189263330' status='passed' stop='1623189279895'>
+            <name>TC-008 | Continue OOBE flow .........</name>
+            <title>TC-008 | Continue OOBE flow .........</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='RF8M72NZX7J-11'/>
+                <parameter kind='argument' name='device' value='RF8M72NZX7J-11'/>
+                <parameter kind='argument' name='device' value='RF8M72NZX7J-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

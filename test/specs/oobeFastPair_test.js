@@ -1,6 +1,5 @@
 const objects = require('../../pageObjects/oobe.page');
 const expected = require('../../data/expected');
-// const methods = require('../../helpers/methods');
 const expect = require('chai').expect;
 
 describe('OOBE FLOW', ()=>{
@@ -27,7 +26,7 @@ describe('OOBE FLOW', ()=>{
         });
 
         it('TC-004 | Link Pixel Buds with "user\'s acc name" message should be shown on screen', async ()=>{
-            await (await (objects.linkPixelMsg)).waitForDisplayed({ timeout: 12000 });
+            await (await (objects.linkPixelMsg)).waitForDisplayed({ timeout: 13000 });
             text = await (await objects._setupDeviceHalfsheet(0)).getText();
             expect(text).equal(expected.linkPixelBuds.msg);
         });
@@ -67,16 +66,16 @@ describe('OOBE FLOW', ()=>{
 
         it('TC-009 | Assistant flow can be completed', async ()=>{
         await (await (objects.continueBtn)).click();
-        await (await (objects.nextBtn)).waitForDisplayed({ timeout: 5000 });
+        // await (await (objects.nextBtn)).waitForDisplayed({ timeout: 4000 });
             await driver.touchAction([
                 { action: 'tap', x: 595, y: 1335 },
-                { action: 'wait', ms: 1000 },
+                { action: 'wait', ms: 2000 },
                 { action: 'tap', x: 595, y: 1335 },
-                { action: 'wait', ms: 1000 },
+                { action: 'wait', ms: 2000 },
                 { action: 'tap', x: 595, y: 1335 },
-                { action: 'wait', ms: 1000 },
+                { action: 'wait', ms: 3000 },
                 { action: 'tap', x: 595, y: 1335 },
-                { action: 'wait', ms: 1000 },
+                { action: 'wait', ms: 5000 },
                 { action: 'tap', x: 595, y: 1335 },
 
             ]);
