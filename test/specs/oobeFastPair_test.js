@@ -53,9 +53,9 @@ describe('OOBE FLOW', ()=>{
         it('TC-008 | Continue OOBE flow .........', async ()=>{
             let multipleClick;
             await (await (objects.oobeActionBtn)).click();
-            await (await (objects.oobeActionBtn)).waitForDisplayed({ timeout: 6000 });
+            await (await (objects.oobeActionBtn)).waitForDisplayed({ timeout: 7000 });
             for (i = 0; i < 6; i++){
-                //7 clicks the buttons
+                //6 clicks the buttons
                 await (await (objects.oobeActionBtn)).click();
             };  return multipleClick;
 
@@ -65,8 +65,22 @@ describe('OOBE FLOW', ()=>{
 
     describe('Assistant flow test suite', () => {
 
-        it('TC-001 | Halfsheet pairing notification shoud be shown on screen', async ()=>{
-            await (await (objects.connectBtn)).waitForDisplayed({ timeout: 5000 });
+        it('TC-009 | Assistant flow can be completed', async ()=>{
+        await (await (objects.continueBtn)).click();
+        await (await (objects.nextBtn)).waitForDisplayed({ timeout: 5000 });
+            await driver.touchAction([
+                { action: 'tap', x: 595, y: 1335 },
+                { action: 'wait', ms: 1000 },
+                { action: 'tap', x: 595, y: 1335 },
+                { action: 'wait', ms: 1000 },
+                { action: 'tap', x: 595, y: 1335 },
+                { action: 'wait', ms: 1000 },
+                { action: 'tap', x: 595, y: 1335 },
+                { action: 'wait', ms: 1000 },
+                { action: 'tap', x: 595, y: 1335 },
+
+            ]);
+
         });
 
     });
